@@ -81,7 +81,3 @@ Redic redic = (Redic) applicationContext.getBean("redic");
 redic.set("name", "robert");
 AssertJUnit.assertEquals("robert", redic.get("name"));
 ```
-
-## 联系开发者艳鹏
-
-> 微信：robert_lyp
